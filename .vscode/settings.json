@@ -1,0 +1,14 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#133507",
+        "titleBar.activeBackground": "#1B4A0A",
+        "titleBar.activeForeground": "#F4FDF1"
+    },
+    "python.analysis.extraPaths": [
+        "/home/wxy/Program/pyDAW"
+    ],
+    "files.associations": {
+        "*.dat": "csv (pipe)",
+        "*.CSV": "csv"
+    },
+}
