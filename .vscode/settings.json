@@ -11,4 +11,5 @@
         "*.dat": "csv (pipe)",
         "*.CSV": "csv"
     },
+    "editor.fontFamily": "consolas",
 }

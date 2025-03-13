@@ -1,21 +1,5 @@
 [
     {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
         "label": "Union",
         "importPath": "typing",
         "description": "typing",
@@ -69,7 +53,7 @@
         "kind": 6,
         "importPath": "Processor",
         "description": "Processor",
-        "peekOfCode": "class Processor:\n    def __init__(self, name):\n        self.name = name\n        self.tasks = []\n    def add_task(self, task):\n        self.tasks.append(task)\n    def process(self):\n        print(f\"Processor {self.name} is processing tasks\")\n        for task in self.tasks:\n            task.execute()",
+        "peekOfCode": "class Processor:\n    def __init__(self, Data_pass):\n        self.name = name\n        self.tasks = []\n    def add_task(self, task):\n        self.tasks.append(task)\n    def process(self):\n        print(f\"Processor {self.name} is processing tasks\")\n        for task in self.tasks:\n            task.execute()",
         "detail": "Processor",
         "documentation": {}
     },
@@ -78,7 +62,7 @@
         "kind": 6,
         "importPath": "Waver",
         "description": "Waver",
-        "peekOfCode": "class Waver:\n    \"\"\"\n    Waver类用于处理波形数据，包括滤波和峰值检测。\n    \"\"\"\n    peak_dtype = np.dtype([\n        (\"position\", int),\n        (\"height\", float),\n        (\"integral\", float),\n        (\"edge_start\", int),\n        (\"edge_end\", int),",
+        "peekOfCode": "class Waver:\n    peak_dtype = np.dtype([\n        (\"position\", int),\n        (\"height\", float),\n        (\"integral\", float),\n        (\"edge_start\", int),\n        (\"edge_end\", int),\n    ])\n    def __init__(self, waveform: np.ndarray):\n        self.waveform = waveform  # 原始波形",
         "detail": "Waver",
         "documentation": {}
     }
